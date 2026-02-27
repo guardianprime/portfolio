@@ -4,7 +4,7 @@ import Linkedin from '../assets/icons-vectors/linkedin.svg?url';
 import Twitter from '../assets/icons-vectors/twitter.svg?url';
 ---
 
-<section>
+<section id="contact" class="h-screen text-center">
   <h1>Contact me section</h1>
   <p>
     Looking for a global developer to join your team or build your next app? I'm
@@ -13,17 +13,19 @@ import Twitter from '../assets/icons-vectors/twitter.svg?url';
     — let's talk.
   </p>
 
-  <div>
-    <div>
-      <img src={Github} alt="icon" />
+  <div
+    class="flex justify-between lg:w-1/3 lg:mx-auto outline-amber-400 outline-1"
+  >
+    <div class="flex-col">
+      <img src={Github} alt="icon" class="w-10 h-auto" />
       <span>Github</span>
     </div>
-    <div>
-      <img src={Linkedin} alt="icon" />
+    <div class="flex-col">
+      <img src={Linkedin} alt="icon" class="w-10 h-auto" />
       <span>Linkedin</span>
     </div>
-    <div>
-      <img src={Twitter} alt="icon" />
+    <div class="flex-col">
+      <img src={Twitter} alt="icon" class="w-10 h-auto" />
       <span>Twitter</span>
     </div>
   </div>

@@ -1,8 +1,12 @@
-<div class="flex items-center justify-between border-b border-black py-6 px-2">
-  <a href="/">
-    <span>Guardianprime</span>
-  </a>
-  <nav>
+<header
+  class="flex items-center justify-between border-b border-black py-6 px-3 fixed top-0 right-0 left-0 z-1000 bg-white backdrop-opacity-10"
+>
+  <div>
+    <a href="/">
+      <span>Guardianprime</span>
+    </a>
+  </div>
+  <nav class="lg:w-1/3 lg:flex lg:justify-between">
     <section class="MOBILE-MENU flex lg:hidden">
       <div class="HAMBURGER-ICON space-y-2" id="hamburger">
         <span class="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
@@ -27,34 +31,41 @@
         </div>
         <ul class="flex flex-col items-center justify-between min-h-[250px]">
           <li class="border-b border-gray-400 my-8 uppercase">
-            <a href="/#">About</a>
+            <a href="/#about">About</a>
           </li>
           <li class="border-b border-gray-400 my-8 uppercase">
-            <a href="/#">Project</a>
+            <a href="/#projects">Project</a>
           </li>
           <li class="border-b border-gray-400 my-8 uppercase">
-            <a href="/#">Contact</a>
+            <a href="/#contact">Contact</a>
           </li>
           <li class="border-b border-gray-400 my-8 uppercase">
-            <a href="/#">Skills</a>
+            <a href="/#skills">Skills</a>
           </li>
         </ul>
       </div>
     </section>
 
-    <ul class="DESKTOP-MENU hidden space-x-8 lg:flex">
+    <ul class="DESKTOP-MENU hidden space-x-8 lg:flex lg:w-full">
       <li>
-        <a href="/about">About</a>
+        <a href="/#about">About</a>
       </li>
       <li>
-        <a href="/portfolio">Portfolio</a>
+        <a href="/#projects">Projects</a>
       </li>
       <li>
-        <a href="/contact">Contact</a>
+        <a href="/#contact">Contact</a>
+      </li>
+      <li>
+        <a href="/#skills">Skills</a>
       </li>
     </ul>
   </nav>
-</div>
+  <div class="lg:flex">
+    <button>Resume</button>
+    <button>Book a call</button>
+  </div>
+</header>
 
 <style>
   .hideMenuNav {
