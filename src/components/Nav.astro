@@ -1,9 +1,9 @@
 ---
 import briefcase from '../assets/icons-vectors/briefcase.svg?url';
 import home from '../assets/icons-vectors/house.svg?url';
-import folder from '../assets/icons-vectors/folder-new.svg?url';
-import spanner from '../assets/icons-vectors/spanner.svg?url';
-import notepad from '../assets/icons-vectors/notepad.svg?url';
+import folder from '../assets/icons-vectors/folder.svg?url';
+import wrench from '../assets/icons-vectors/wrench.svg?url';
+import notepad from '../assets/icons-vectors/notebook-pen.svg?url';
 ---
 
 <header class="w-full">
@@ -11,19 +11,24 @@ import notepad from '../assets/icons-vectors/notepad.svg?url';
     class="flex justify-between p-3 rounded-2xl w-70 h-12 mx-auto bg-neutral-500 lg:w-1/2"
   >
     <li>
-      <img src={home} alt="svg icons" class="w-5 h-5" />
+      <a href="/">
+        <img src={home} alt="svg icons" class="w-5 h-5" />
+      </a>
     </li>
     <li>
-      <img src={briefcase} alt="svg icons" class="w-5 h-5" />
+      <a href="/projects">
+        <img src={folder} alt="svg icons" class="w-5 h-5" />
+      </a>
     </li>
     <li>
-      <img /><img src={folder} alt="svg icons" class="w-5 h-5" />
+      <a href="#">
+        <img src={wrench} alt="svg icons" class="w-5 h-5" />
+      </a>
     </li>
     <li>
-      <img src={spanner} alt="svg icons" class="w-5 h-5" />
-    </li>
-    <li>
-      <img src={notepad} alt="svg icons" class="w-5 h-5" />
+      <a href="/blog">
+        <img src={notepad} alt="svg icons" class="w-5 h-5" />
+      </a>
     </li>
   </ul>
 </header>

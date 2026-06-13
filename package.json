@@ -11,8 +11,8 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@astrojs/sitemap": "^3.7.0",
-    "astro": "^5.17.1"
+    "@astrojs/sitemap": "^3.7.3",
+    "astro": "^6.4.6"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.2.0",

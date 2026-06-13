@@ -1,71 +1,115 @@
 ---
-import { Image } from 'astro:assets';
-import myImage from '../assets/placeholder.png';
+import Arrow from '../assets/icons-vectors/arrow-right.svg';
 ---
 
-<section id="projects" class="h-screen p-4">
+<section id="projects" class="h-300 p-4">
   <h1 class="text-5xl uppercase text-center">Recent Projects</h1>
-  <p>
-    Real apps, real users, real impact. Download them now on the App Store &
-    Play Store.
+  <p class="text-center">
+    A list of my projects some contracted work and fun projects
   </p>
   <div
     class="container lg:grid-cols-3 lg:grid lg:gap-2 w-full lg:h-1/2 mt-3 h-4/5 outline-2 outline-violet-950 p-2 flex justify-between flex-col"
   >
     <div class="outline-2 outline-pink-950 rounded-md flex justify-between">
-      <div class="rounded-md">
-        <Image src={myImage} alt="project image" class="w-20 h-20 rounded-md" />
+      <div class="rounded-md hidden lg:inline-block">
+        <img src="" alt="project image" class="w-20 h-20 rounded-md" />
       </div>
       <div>
-        <h2>school website</h2>
+        <h2 class="text-2xl">school website</h2>
         <p>
           Build a school management webstite or platform for potential buyers
         </p>
+        <div class="flex">
+          <a href="#" class="flex">
+            <span>Read more</span>
+            <Arrow class="w-5 h-5" />
+          </a>
+        </div>
       </div>
     </div>
-    <div class="outline-2 outline-pink-950 rounded-md flex justify-between">
-      <div class="rounded-md">
-        <Image src={myImage} alt="project image" class="w-20 h-20 rounded-md" />
+    <div
+      class="outline-2 outline-pink-950 rounded-md flex justify-between h-1/6"
+    >
+      <div class="rounded-md hidden lg:inline-block">
+        <img src="" alt="project image" class="w-20 h-20 rounded-md" />
       </div>
       <div>
-        <h2>Restaurant website</h2>
+        <h2 class="text-2xl">Restaurant website</h2>
         <p>small business restaurant website</p>
+        <div class="flex">
+          <a href="#" class="flex">
+            <span>Read more</span>
+            <Arrow class="w-5 h-5" />
+          </a>
+        </div>
       </div>
     </div>
-    <div class="outline-2 outline-pink-950 rounded-md flex justify-between">
-      <div class="rounded-md">
-        <Image src={myImage} alt="project image" class="w-20 h-20 rounded-md" />
+    <div
+      class="outline-2 outline-pink-950 rounded-md flex justify-between h-1/6"
+    >
+      <div class="rounded-md hidden lg:inline-block">
+        <img src="" alt="project image" class="w-20 h-20 rounded-md" />
       </div>
       <div>
-        <h2>E-commerce website</h2>
+        <h2 class="text-2xl">E-commerce website</h2>
         <p>E-commerce website for a gadgets store</p>
+        <div class="flex">
+          <a href="#" class="flex">
+            <span>Read more</span>
+            <Arrow class="w-5 h-5" />
+          </a>
+        </div>
       </div>
     </div>
-    <div class="outline-2 outline-pink-950 rounded-md flex justify-between">
-      <div class="rounded-md">
-        <Image src={myImage} alt="project image" class="w-20 h-20 rounded-md" />
+    <div
+      class="outline-2 outline-pink-950 rounded-md flex justify-between h-1/6"
+    >
+      <div class="rounded-md hidden lg:inline-block">
+        <img src="" alt="project image" class="w-20 h-20 rounded-md" />
       </div>
       <div>
-        <h2>Prodoc project</h2>
+        <h2 class="text-2xl">Prodoc project</h2>
         <p>tool that utitlizes ai and integrates it into code</p>
+        <div class="flex">
+          <a href="#" class="flex">
+            <span>Read more</span>
+            <Arrow class="w-5 h-5" />
+          </a>
+        </div>
       </div>
     </div>
-    <div class="outline-2 outline-pink-950 rounded-md flex justify-between">
-      <div class="rounded-md">
-        <Image src={myImage} alt="project image" class="w-20 h-20 rounded-md" />
+    <div
+      class="outline-2 outline-pink-950 rounded-md flex justify-between h-1/6"
+    >
+      <div class="rounded-md hidden lg:inline-block">
+        <img src="" alt="project image" class="w-20 h-20 rounded-md" />
       </div>
       <div>
-        <h2>Church Website</h2>
+        <h2 class="text-2xl">Church Website</h2>
         <p>Website for a church</p>
+        <div class="flex">
+          <a href="#" class="flex">
+            <span>Read more</span>
+            <Arrow class="w-5 h-5" />
+          </a>
+        </div>
       </div>
     </div>
-    <div class="outline-2 outline-pink-950 rounded-md flex justify-between">
-      <div class="rounded-md">
-        <Image src={myImage} alt="project image" class="w-20 h-20 rounded-md" />
+    <div
+      class="outline-2 outline-pink-950 rounded-md flex justify-between h-1/6"
+    >
+      <div class="rounded-md hidden lg:inline-block">
+        <img src="" alt="project image" class="w-20 h-20 rounded-md" />
       </div>
       <div>
-        <h2>Real estate management site</h2>
+        <h2 class="text-2xl">Real estate management site</h2>
         <p>Website that handles or works in the real estate sector</p>
+        <div class="flex">
+          <a href="/projects" class="flex">
+            <span>Read more</span>
+            <Arrow class="w-5 h-5" />
+          </a>
+        </div>
       </div>
     </div>
   </div>
